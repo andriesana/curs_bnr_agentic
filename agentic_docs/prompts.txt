@@ -1,0 +1,17 @@
+1. Promptul pentru scraper:
+"Fă un plan pentru web scraping de serie de curs valutar BNR de pe site-ul: https://www.cursbnr.ro/curs-valutar-bnr. Ca parametri: currency, dataStart, dataEnd. Extrage datele din tabelul <table id='table-currencies'> folosind requests + BeautifulSoup și salvează rezultatul în CSV."
+
+2. Promptul pentru planul de antrenare modele:
+"Ești un inginer ML specializat în serii temporale. Pe baza datelor extrase în CSV, fă un plan pentru antrenarea unor modele de prognoză a cursului valutar pentru ziua următoare. Cerințe: preprocesare, conversie dată, tratare valori lipsă, split train/test (ultimele 14 zile), 3 modele diferite (SARIMA, Prophet și XGBoost), metrici MAE/RMSE/MAPE."
+
+3. Promptul pentru modificarea planului cu validare încrucișată pe serii temporale:
+"Modifică planul de antrenare și tuning pentru a folosi o tehnică de validare încrucișată specifică seriilor temporale (Time Series Split) în vederea evitării scurgerilor de date (data leakage) din viitor în trecut."
+
+4. Promptul pentru tuning hiperparametri cu Optuna și GridSearch:
+"Citește tot codul existent și toate fișierele .md din proiect. Analizează modelele implementate pentru prognoza cursului GBP/RON: SARIMA, Prophet și XGBoost. Propune un plan de modificare pentru optimizarea hiperparametrilor acestor modele. Folosește ca punct de plecare ideile existente în agentic_docs/idei_de_imbunatatire.md, dacă sunt relevante. Planul trebuie să includă două variante: una cu Optuna și una cu GridSearch. Pentru fiecare variantă, explică ce parametri vor fi optimizați, ce metrică se folosește și cum se păstrează validarea specifică seriilor temporale. Salvează planul într-un fișier .md și cere-mi aprobarea înainte de implementare."
+
+5. Promptul pentru implementarea planului după aprobare:
+"Aprob planul. Implementează modificările propuse pentru tuningul hiperparametrilor, păstrând moneda GBP/RON, validarea specifică seriilor temporale, salvarea rapoartelor în reports/ și structura existentă a proiectului."
+
+6. Promptul pentru formatare cod:
+"Te rog să verifici și să formatezi tot codul sursă scris până acum. Respectă standardul PEP 8, adaugă type hints pentru toate funcțiile și asigură-te că fișierele sunt corect comentate (docstrings)."

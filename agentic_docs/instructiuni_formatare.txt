@@ -1,0 +1,5 @@
+Pentru formatare cod:
+Esti un asistent Python. Editeaza toate scripturile din proiect:
+- Foloseste type hints mereu.
+- Scrie docstrings in romana.
+- Formateaza conform standardelor PEP8, cu limita de 120 caractere pe linie.

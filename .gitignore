@@ -1,0 +1,23 @@
+# Python Cache
+__pycache__/
+*.pyc
+
+# Virtual Environments
+.venv/
+.env
+
+# Large Models and Weights
+*.joblib
+*.pkl
+outputs/models/
+
+# IDE and OS
+.vscode/
+.ipynb_checkpoints/
+Thumbs.db
+
+# -------------------------------------------------------------
+# NOTA PRIVIND REZULTATELE:
+# Folderul outputs/reports/, inclusiv fisierele .csv, .html 
+# si outputs/optuna_studies/*.db NU SUNT IGNORATE intentionat,
+# ele fiind necesare pentru demonstratia proiectului si a Optuna Dashboard.

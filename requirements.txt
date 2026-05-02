@@ -1,0 +1,15 @@
+requests>=2.31.0
+beautifulsoup4>=4.12.3
+pandas
+numpy
+scikit-learn
+statsmodels
+prophet
+xgboost
+plotly
+joblib
+optuna
+fastapi
+uvicorn
+sqlalchemy
+streamlit
